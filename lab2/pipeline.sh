@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 pip install scikit-learn
 python3 /lab2/data_creation.py
 python3 /lab2/data_preprocessing.py
