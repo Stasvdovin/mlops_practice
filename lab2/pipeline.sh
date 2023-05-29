@@ -2,8 +2,7 @@
 pip install scikit-learn
 pip install pandas
 pip install numpy
-find /lab2 -type d -exec chmod 777 {} \;
-find /lab2 -type f -exec chmod 777 {} \;
+pip --version
 python3 /var/lib/jenkins/workspace/test/lab2/data_creation.py
 python3 /var/lib/jenkins/workspace/test/lab2/data_preprocessing.py
 python3 /var/lib/jenkins/workspace/test/lab2/model_preparation.py
