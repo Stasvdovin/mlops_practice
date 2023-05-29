@@ -2,7 +2,7 @@
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 
-python3 pip install -r var/lib/jenkins/workspace/test/lab2/requirements.txt
+pip3 install -r var/lib/jenkins/workspace/test/lab2/requirements.txt
 python3 /var/lib/jenkins/workspace/test/lab2/data_creation.py
 python3 /var/lib/jenkins/workspace/test/lab2/data_preprocessing.py
 python3 /var/lib/jenkins/workspace/test/lab2/model_preparation.py
