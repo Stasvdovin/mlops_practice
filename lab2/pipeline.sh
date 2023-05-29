@@ -1,7 +1,9 @@
 #!/bin/bash
 wget https://bootstrap.pypa.io/get-pip.py
 python3 get-pip.py
-pip3 --version
+pip install pandas
+pip install numpy
+pip install scikit-learn
 
 python3 /var/lib/jenkins/workspace/test/lab2/data_creation.py
 python3 /var/lib/jenkins/workspace/test/lab2/data_preprocessing.py
