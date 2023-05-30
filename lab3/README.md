@@ -1,4 +1,4 @@
-[![Tests](https://github.com/Stasvdovin/text_generator/actions/workflows/python-app.yml/badge.svg)](https://github.com/Stasvdovin/text_generator/actions/workflows/python-app.yml)
+
 ### Project "Text Generation"
 https://stasvdovin-text-generator-main-application-4v6b6n.streamlit.app/
 
